@@ -1,0 +1,160 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    padding: 0%;
+    background-color: #C9C1AF;
+    overflow-x: hidden;
+}
+
+footer {
+    text-align: center;
+    font-family: "garlic-salt";
+    font-size: 0.8rem;
+    color: #4D3117;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+p {
+    font-family: "garlic-salt";
+    color: #4D3117;
+    line-height: 200%;
+    
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    padding-top: 10%;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #4D3117;
+    font-family: "garlic-salt";
+    font-size: 1.2rem;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header > a {
+    display: block;
+    text-decoration: none;
+    color: #4D3117;
+    font-family: "fields";
+    font-size: 3.5rem;
+}
+
+
+/* home styling */
+
+.home img {
+    padding: 8%;
+}
+
+/* sw styling */
+
+.sw img {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    
+}
+
+.sw img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.sw a {
+    text-decoration: none;
+}
+
+.sw img {
+    border: none;
+}
+
+/* cv styling */
+
+.cv h1 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #4D3117;
+}
+
+.cv li {
+    list-style: none;
+    color: #4D3117;
+    font-family: "garlic-salt";
+    font-size: 1.2rem;
+    position:center;
+    padding: 1%;
+}
+
+/* about styling */
+
+.about h1 {
+    font-size: 1.2rem;
+   position: center;
+   text-align: center;
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 20%;
+   font-weight: 100;
+    color: #4D3117;
+}
+
+.about p {
+    font-size: 1.2rem;
+    position: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+
+/* contact styling */
+
+.contact a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: center;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.insta {
+    text-align: center;
+    text-decoration: none;
+}
+
+.insta a img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
