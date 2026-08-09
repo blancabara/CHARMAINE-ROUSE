@@ -190,7 +190,13 @@ header > a {
        
     }
 
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px 40px;
+    }
 
+    
     .nav-desktop {
         display: none;
     }
@@ -208,7 +214,7 @@ header > a {
         height: 32px;
         width: 30px;
         top: 20px;
-        left: 20px;
+        right: 20px;
         z-index: 5;
         opacity: 0;
     }
@@ -219,7 +225,7 @@ header > a {
         width: 45px;
         position: absolute;
         top: 30px;
-        left: 20px; 
+        right: 20px; 
         z-index: 2;
         display: flex;
         flex-direction: column;
@@ -250,16 +256,15 @@ header > a {
 
     nav .menu-items {
         padding-top: 100px;
-        background: #fff;
+        background: #C9C1AF;
         height: 100vh;
         width: 100%;
-        transform: translate(-150%);
+        transform: translate(150%);
         display: flex;
         flex-direction: column;
-        margin-left: -40px;
         padding-left: 50px;
         transition: transform 0.5s ease-in-out;
-        box-shadow: -5px 0px 10px 0px #d0d0d0;
+        box-shadow: -5px 0px 10px 0px #989180;
         margin-top: 0;
     }
 
